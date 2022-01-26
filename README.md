@@ -34,17 +34,11 @@ You just need to add the job (fbi) to the dependencies.
 
 
 ## Screenshots
-![On Duty / Off Duty](https://imgur.com/KO2ydlt.png)
-![Whitelisted Police Armory](https://imgur.com/TQVIYFb.png)
-![Whitelisted Police Stash](https://imgur.com/Hh2fbs4.png)
-![Vehicle Spawner](https://imgur.com/plgZ9oD.png)
-![Helicopter Spawner](https://imgur.com/jE2IoqK.png)
-![Fingerprint Scan](https://imgur.com/btmurxh.png)
-![Evidence Stash](https://imgur.com/KBOoUy5.png)
-![Spike Placing](https://imgur.com/mTN6c0h.png)
-![Object Placing](https://imgur.com/7Jate4f.png)
-![Police Alert](https://imgur.com/rAIiWYH.png)
-![Securty Cam](https://imgur.com/vFr8nWf.png)
+![On/Off Duty - Armery - Fingerprint](https://media.discordapp.net/attachments/927899259376922636/935978245403344967/unknown.png?width=1202&height=676)
+![Whitelisted FBI Armory](https://cdn.discordapp.com/attachments/927899259376922636/935980908438237264/unknown.png)
+![Whitelisted FBI Stash](https://cdn.discordapp.com/attachments/927899259376922636/935978117376405576/unknown.png)
+![Vehicle Spawner](https://cdn.discordapp.com/attachments/927899259376922636/935978459245707354/unknown.png)
+
 
 ## Features
 - Classical requirements like on duty/off duty, clothing, vehicle, stash etc.
