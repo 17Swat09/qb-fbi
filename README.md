@@ -23,7 +23,7 @@ You just need to add the job (fbi) to the dependencies.
     along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 ## Dependencies
-- [qb-core](https://github.com/qbcore-framework/qb-core)
+- [qb-core](https://github.com/qbcore-framework/qb-core) -To implement the job
 - [qb-bossmenu](https://github.com/qbcore-framework/qb-bossmenu) - For the boss menu
 - [qb-garages](https://github.com/qbcore-framework/qb-garages) - For the vehicle spawner
 - [qb-clothing](https://github.com/qbcore-framework/qb-clothing) - For the locker room
