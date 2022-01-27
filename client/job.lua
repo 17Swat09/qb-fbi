@@ -471,7 +471,7 @@ CreateThread(function()
 
             for k, v in pairs(Config.Locations["duty"]) do
                 if #(pos - v) < 5 then
-                    sleep = 5
+                    sleep = 2 --fix flickering 3d texts
                     if #(pos - v) < 1.5 then
                         if not onDuty then
                             DrawText3D(v.x, v.y, v.z, "~g~E~w~ - Enter Service")
@@ -505,7 +505,7 @@ CreateThread(function()
             local pos = GetEntityCoords(PlayerPedId())
             for k, v in pairs(Config.Locations["evidence"]) do
                 if #(pos - v) < 2 then
-                    sleep = 5
+                    sleep = 2
                     if #(pos - v) < 1.0 then
                         if not headerDrawn then
                             headerDrawn = true
@@ -545,7 +545,7 @@ CreateThread(function()
             for k, v in pairs(Config.Locations["stash"]) do
                 if #(pos - v) < 4.5 then
                     if onDuty then
-                        sleep = 5
+                        sleep = 2
                         if #(pos - v) < 1.5 then
                             DrawText3D(v.x, v.y, v.z, "~g~E~w~ - Personal stash")
                             if IsControlJustReleased(0, 38) then
@@ -572,7 +572,7 @@ CreateThread(function()
             local pos = GetEntityCoords(PlayerPedId())
             for k, v in pairs(Config.Locations["trash"]) do
                 if #(pos - v) < 2 then
-                    sleep = 5
+                    sleep = 2
                     if #(pos - v) < 1.0 then
                         DrawText3D(v.x, v.y, v.z, "~g~E~w~ - Bin")
                         if IsControlJustReleased(0, 38) then
@@ -602,7 +602,7 @@ CreateThread(function()
             for k, v in pairs(Config.Locations["fingerprint"]) do
                 if #(pos - v) < 4.5 then
                     if onDuty then
-                        sleep = 5
+                        sleep = 2
                         if #(pos - v) < 1.5 then
                             DrawText3D(v.x, v.y, v.z, "~g~E~w~ - Fingerprint Scanning")
                             if IsControlJustReleased(0, 38) then
@@ -635,7 +635,7 @@ CreateThread(function()
             for k, v in pairs(Config.Locations["armory"]) do
                 if #(pos - v) < 4.5 then
                     if onDuty then
-                        sleep = 5
+                        sleep = 2
                         if #(pos - v) < 1.5 then
                             DrawText3D(v.x, v.y, v.z, "~g~E~w~ - Armory")
                             if IsControlJustReleased(0, 38) then
@@ -678,7 +678,7 @@ CreateThread(function()
             for k, v in pairs(Config.Locations["helicopter"]) do
                 if #(pos - vector3(v.x, v.y, v.z)) < 7.5 then
                     if onDuty then
-                        sleep = 5
+                        sleep = 2
                         DrawMarker(2, v.x, v.y, v.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3, 0.2, 0.15, 200, 0, 0, 222, false, false, false, true, false, false, false)
                         if #(pos - vector3(v.x, v.y, v.z)) < 1.5 then
                             if IsPedInAnyVehicle(PlayerPedId(), false) then
@@ -725,7 +725,7 @@ CreateThread(function()
             for k, v in pairs(Config.Locations["impound"]) do
                 if #(pos - vector3(v.x, v.y, v.z)) < 7.5 then
                     if onDuty then
-                        sleep = 5
+                        sleep = 2
                         DrawMarker(2, v.x, v.y, v.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3, 0.2, 0.15, 200, 0, 0, 222, false, false, false, true, false, false, false)
                         if #(pos - vector3(v.x, v.y, v.z)) <= 1.5 then
                             if IsPedInAnyVehicle(PlayerPedId(), false) then
@@ -777,7 +777,7 @@ CreateThread(function()
             for k, v in pairs(Config.Locations["vehicle"]) do
                 if #(pos - vector3(v.x, v.y, v.z)) < 7.5 then
                     if onDuty then
-                        sleep = 5
+                        sleep = 2
                         DrawMarker(2, v.x, v.y, v.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3, 0.2, 0.15, 200, 0, 0, 222, false, false, false, true, false, false, false)
                         if #(pos - vector3(v.x, v.y, v.z)) < 1.5 then
                             if IsPedInAnyVehicle(PlayerPedId(), false) then
